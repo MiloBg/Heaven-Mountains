@@ -173,6 +173,49 @@ a {
     }
 }
 
+/* --------------------------
+          About Us
+-------------------------- */
+
+.about-us {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.about-us img {
+    min-width: 500px;
+}
+
+.about-container {
+    margin: 0 60px;
+}
+
+.about-container h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #0a3d62;
+    display: block;
+}
+
+.about-container h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.about-container p {
+    line-height: 1.7;
+    width: 80%;
+    text-align: justify;
+}
+
+
+
+
 
 
 
