@@ -1,0 +1,27 @@
+/* --------------------------
+        Media Query
+-------------------------- */
+
+@media all and (max-width: 1420px) {
+    
+}
+
+@media all and (max-width: 1200px) {
+    /* Everything acceptable */
+}
+
+@media all and (max-width: 991px) {
+    /* Everything acceptable */
+}
+
+@media all and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+}
+
+@media all and (max-width: 320px) {
+    /* Everything acceptable */
+}
