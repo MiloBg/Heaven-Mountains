@@ -224,7 +224,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
-    background-image: linear-gradient(rgba(10, 61, 98, 0.8), rgba(0, 0, 0, 0.8)), url(../img/img2.jpg);
+    background-image: linear-gradient(rgba(10, 61, 98, 0.8), rgba(0, 0, 0, 0.8)), url(img/img2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
