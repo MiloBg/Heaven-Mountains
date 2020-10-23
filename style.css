@@ -224,7 +224,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
-    background-image: linear-gradient(rgba(10, 61, 98, 0.8), rgba(0, 0, 0, 0.8)), url(img/img2.jpg);
+    background-image: linear-gradient(rgba(10, 61, 98, 0.8), rgba(0, 0, 0, 0.8)), url(../img/img2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -344,7 +344,12 @@ a {
 }
 
 #google-maps {
-    
+    height: 100%;
+    width: 100%;
+}
+
+.gm-style-mtc, .gm-svpc, .gmnoprint, .gm-control-active, .gm-fullscreen-control {
+    display: none;
 }
 
 /* Contact form */
@@ -472,5 +477,67 @@ a {
     transform: rotate(-135deg);
 }
 
+.hidden {
+    display: none;
+}
 
+/* --------------------------
+        Mobile Menu
+-------------------------- */
 
+.open-button {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    cursor: pointer;
+    top: 25px;
+    right: 40px;
+    z-index: 9999;
+    border-bottom: 0;
+}
+
+.open-button span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #0a3d62;
+    border-radius: 3px;
+    left: 0;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: all .25s ease-in-out;
+    display: none;
+}
+
+.open-button span:nth-child(1) {
+    top: 0;
+    transform-origin: left center;
+}
+
+.open-button span:nth-child(2) {
+    top: 10px;
+    transform-origin: left center;
+}
+
+.open-button span:nth-child(3) {
+    top: 20px;
+    transform-origin: left center;
+}
+
+.open-button.open span:nth-child(1) {
+    top: -3px;
+    left: 8px;
+    transform: rotate(45deg);
+}
+
+.open-button.open span:nth-child(2) {
+    width: 0;
+    opacity: 0;
+}
+
+.open-button.open span:nth-child(3) {
+    top: 19px;
+    left: 8px;
+    transform: rotate(-45deg);
+}
