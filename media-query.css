@@ -91,6 +91,7 @@
     }
     .open a {
         font-size: 25px;
+        padding: 15px;
     }
     .open-button span {
         display: block;
